@@ -174,8 +174,8 @@ S.UI = (function () {
         value,
         current;
     if (window.innerWidth>500 && window.innerHeight>500){
-      delay1 = 1500;
-      delay2 = 2500;
+      delay1 = 950;
+      delay2 = 1950;
     }
     // overlay.classList.remove('overlay--visible');
     sequence = typeof(value) === 'object' ? value : sequence.concat(value.split('|'));
