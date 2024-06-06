@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||祝|小程老师|生日快乐！|(｡◕‿◕｡)|祝你|健康|祝你|幸福|祝你|前途一片光明|˃̵ᴗ˂|祝你...|永远十八岁！|٩(๑˃̵ᴗ˂̵๑)۶|哦对了|╰(✿´⌣`✿)╯|差点忘了|和你说|(｡╹ω╹｡)|每一天|都一定要|开开心心的哦|(⁎⁍̴̛ᴗ⁍̴̛⁎)|(｡◕‿◕｡)|( ◠‿◠ ) |#icon heart|#icon heart-empty|#icon heart');
+        S.UI.simulate('|#countdown 3||祝|小程老师|生日快乐！|(｡◕‿◕｡)|祝你|健康|祝你|幸福|祝你|前途一片光明|˃̵ᴗ˂|还要祝你...|永远十八岁！|٩(๑˃̵ᴗ˂̵๑)۶|哦对了|╰(✿´⌣`✿)╯|差点忘了|和你说|(｡╹ω╹｡)|每一天|都一定要|开开心心的哦|(⁎⁍̴̛ᴗ⁍̴̛⁎)|(｡◕‿◕｡)|( ◠‿◠ ) |#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
